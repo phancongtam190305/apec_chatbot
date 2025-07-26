@@ -1,4 +1,4 @@
-# 🤖 APEC 2025 Chatbot: Trợ lý AI Phục Vụ Hội Nghị APEC
+# APEC 2025 Chatbot: Trợ lý AI Phục Vụ Hội Nghị APEC
 
 **Chatbot AI đa ngôn ngữ** sử dụng mô hình **Retrieval-Augmented Generation (RAG)**, hỗ trợ người dùng tra cứu thông tin về APEC 2025 một cách **nhanh chóng**, **chính xác** và **thân thiện**.
 
