@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### 2. Cấu hình biến môi trường
 
-Tạo file `.env` trong thư mục `backend/` dựa theo `.env.example`:
+Tạo file `.env` nằm bằng folder backend và demo dựa theo `.env.example`:
 
 ```env
 QDRANT_CLOUD_URL="https://YOUR_CLUSTER_URL:6333"
@@ -60,13 +60,13 @@ EMBEDDING_MODEL_NAME="all-MiniLM-L6-v2"
 
 ## 🛠️ Chạy thử demo
 
-### Bước 1: Crawl và xử lý dữ liệu
+### Bước 1: Crawl và xử lý dữ liệu (đã crawl và nằm trong data)
 
 ```bash
 python backend/data_preparation.py
 ```
 
-### Bước 2: Tạo embedding và tải lên Qdrant
+### Bước 2: Tạo embedding và tải lên Qdrant (có thể up lại vẫn được vì trong code có lệnh xóa collection)
 
 ```bash
 python backend/embedding.py
@@ -96,7 +96,7 @@ Truy cập: [http://localhost:8501](http://localhost:8501)
 | ------------------------ | --------------------------------------------------- |
 | APEC 2025 tổ chức ở đâu? | APEC 2025 sẽ được tổ chức tại Hàn Quốc...           |
 | What is APEC?            | APEC is a regional economic forum...                |
-| Các chủ đề chính là gì?  | Các chủ đề bao gồm: thương mại, kết nối, đổi mới... |
+| Du lịch  | Các chủ đề bao gồm: thương mại, kết nối, đổi mới... |
 | Giá vé máy bay?          | Tôi xin lỗi, tôi không tìm thấy thông tin cụ thể... |
 
 ---
