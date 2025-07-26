@@ -31,7 +31,7 @@ st.markdown("""
     /* Tổng thể ứng dụng */
     .stApp {
         /* THAY ĐỔI Ở ĐÂY: Thêm background-image */
-        background-image: url("https://en.wikipedia.org/wiki/APEC_South_Korea_2025#/media/File:APEC_2025_Korea_emblem.jpg"); /* Thay bằng URL ảnh của bạn */
+        background-image: url("https://drive.google.com/file/d/1BiDEkdBWPn1k9eKUeEtqaNKWj71Xj3iM/view?usp=drive_link"); /* Thay bằng đường dẫn file ảnh của bạn */
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat; 
