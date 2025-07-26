@@ -1,8 +1,3 @@
-Dưới đây là nội dung `README.md` đầy đủ cho dự án **APEC 2025 Chatbot**, được trình bày rõ ràng theo chuẩn Markdown:
-
----
-
-```markdown
 # 🤖 APEC 2025 Chatbot: Trợ lý AI Phục Vụ Hội Nghị APEC
 
 **Chatbot AI đa ngôn ngữ** sử dụng mô hình **Retrieval-Augmented Generation (RAG)**, hỗ trợ người dùng tra cứu thông tin về APEC 2025 một cách **nhanh chóng**, **chính xác** và **thân thiện**.
@@ -23,11 +18,7 @@ Dưới đây là nội dung `README.md` đầy đủ cho dự án **APEC 2025 C
 - 📚 **Quản lý tri thức hiệu quả**: Crawl dữ liệu HTML, phân mảnh ("chunk") và lưu trữ có cấu trúc.
 - 🖼️ **Giao diện thân thiện**: Streamlit giúp tương tác trực quan, dễ sử dụng.
 
----
-
 ## 📁 Cấu trúc dự án
-
-```
 
 apec\_chatbot/
 ├── backend/
@@ -42,11 +33,6 @@ apec\_chatbot/
 ├── app\_streamlit.py                 # Giao diện Streamlit
 ├── requirements.txt                 # Thư viện Python cần thiết
 └── README.md                        # File mô tả dự án
-
-````
-
----
-
 ## ⚙️ Cài đặt
 
 ### 1. Cài thư viện
@@ -113,26 +99,9 @@ Truy cập: [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🧩 Troubleshooting
-
-| Vấn đề                     | Giải pháp                                      |
-| -------------------------- | ---------------------------------------------- |
-| ❌ Không kết nối API        | Kiểm tra `uvicorn` đã chạy chưa.               |
-| ❌ Qdrant connection failed | Kiểm tra `QDRANT_CLOUD_URL` và `API_KEY`.      |
-| ❌ LLM lỗi                  | Kiểm tra `GOOGLE_API_KEY` còn hoạt động không. |
-| ❌ Không thấy HTML          | Chạy lại `data_preparation.py` trước.          |
-
 ---
 
 ## 📜 Giấy phép
 
-MIT License © 2025 – Dự án chatbot AI phục vụ APEC bởi \[Tên nhóm của bạn hoặc tổ chức nếu có].
+MIT License © 2025 – Dự án chatbot AI phục vụ APEC bởi Phan Công Tâm.
 
----
-
-```
-
----
-
-Nếu bạn cần mình **xuất file markdown (`README.md`)** để tiện tải về hoặc copy, hãy nói "Xuất file cho tôi" nhé!
-```
