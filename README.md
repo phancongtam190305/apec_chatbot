@@ -23,16 +23,17 @@
 apec_chatbot/
 ├── backend/
 │   ├── data/
-│   │   ├── crawled\_raw\_html/         # HTML thô đã crawl
-│   │   └── json\_chunks/              # Dữ liệu đã xử lý
-│   │       └── apec\_all\_chunks.json
-│   ├── app.py                        # FastAPI backend
-│   ├── embedding.py                 # Tạo embedding và upload lên Qdrant
-│   └── data\_preparation.py          # Crawl & xử lý dữ liệu
-├── .env.example                     # Mẫu file biến môi trường
-├── app\_streamlit.py                 # Giao diện Streamlit
-├── requirements.txt                 # Thư viện Python cần thiết
-└── README.md                        # File mô tả dự án
+│   │   ├── crawled_raw_html/   # Chứa các file HTML thô đã crawl
+│   │   └── json_chunks/        # Chứa các chunk dữ liệu đã xử lý (.json)
+│   │       └── apec_all_chunks.json
+│   ├── app.py                  # API Backend (FastAPI)
+│   ├── embedding.py            # Script tạo embedding và tải lên Qdrant
+│   ├── data_preparation.py     # Script crawl và tiền xử lý dữ liệu
+│   └── .env.example            # Mẫu file cấu hình biến môi trường
+├── demo/                       # Chứa ứng dụng Streamlit frontend
+│   └── app_streamlit.py        # Giao diện người dùng (Streamlit)
+├── requirements.txt            # Danh sách các thư viện Python cần thiết
+└── README.md                   # File mô tả dự án này
 ```
 ## ⚙️ Cài đặt
 
