@@ -3,7 +3,7 @@
 **Chatbot AI đa ngôn ngữ** sử dụng mô hình **Retrieval-Augmented Generation (RAG)**, hỗ trợ người dùng tra cứu thông tin về APEC 2025 một cách **nhanh chóng**, **chính xác** và **thân thiện**.
 
 ## 🚀 Công nghệ sử dụng
-
+- **RAG** để tìm kiếm nội dung theo ngữ nghĩa
 - **FastAPI** cho Backend API
 - **Streamlit** cho giao diện người dùng
 - **Qdrant** làm Vector Database
@@ -16,7 +16,7 @@
 - 🌐 **Đa ngôn ngữ**: Tự động nhận diện và phản hồi tiếng Việt hoặc tiếng Anh.
 - 💬 **Gợi ý câu hỏi**: Gợi ý nhanh các câu hỏi phổ biến theo chủ đề.
 - 📚 **Quản lý tri thức hiệu quả**: Crawl dữ liệu HTML, phân mảnh ("chunk") và lưu trữ có cấu trúc.
-- 🖼️ **Giao diện thân thiện**: Streamlit giúp tương tác trực quan, dễ sử dụng.
+- 🖼️ **Giao diện thân thiện**: Streamlit giúp tương tác trực quan, dễ sử dụng đi kèm các quick replies button.
 
 ## 📁 Cấu trúc dự án
 ```
@@ -98,10 +98,13 @@ Truy cập: [http://localhost:8501](http://localhost:8501)
 | ------------------------ | --------------------------------------------------- |
 | APEC 2025 tổ chức ở đâu? | APEC 2025 sẽ được tổ chức tại Hàn Quốc...           |
 | What is APEC?            | APEC is a regional economic forum...                |
-| Du lịch  | Các chủ đề bao gồm: thương mại, kết nối, đổi mới... |
+| Du lịch  | Làng Gyochon ở Gyeongju: Một làng Hanok truyền thống, nơi du khách... |
 | Giá vé máy bay?          | Tôi xin lỗi, tôi không tìm thấy thông tin cụ thể... |
 
 ---
+## Kết quả ChatBot
+
+![Kết quả Chatbot](./back_ground_img/Screenshot 2025-07-26 212650.png)
 
 ---
 
