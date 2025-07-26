@@ -75,13 +75,15 @@ python backend/embedding.py
 ### Bước 3: Khởi động backend FastAPI
 
 ```bash
+cd apec_chatbot
 cd backend
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
-
+Có chữ Application startup complete là tiếp tục.
 ### Bước 4: Khởi động giao diện Streamlit
 
 ```bash
+cd apec_chatbot
 cd demo
 streamlit run app_streamlit.py
 ```
@@ -106,4 +108,6 @@ Truy cập: [http://localhost:8501](http://localhost:8501)
 ## 📜 Giấy phép
 
 MIT License © 2025 – Dự án chatbot AI phục vụ APEC bởi Phan Công Tâm.
+
+![Alt text]("D:\Desktop\FUFC\Screenshot 2025-07-26 211508.png")
 

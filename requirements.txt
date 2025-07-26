@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+requests
+qdrant-client
+sentence-transformers
+langdetect
+google-generativeai
+pydantic
+langchain-community
+langchain-huggingface
+langchain-qdrant
+langchain-core
+python-dotenv
