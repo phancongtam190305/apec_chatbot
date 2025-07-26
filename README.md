@@ -104,7 +104,7 @@ Truy cập: [http://localhost:8501](http://localhost:8501)
 ---
 ## Kết quả ChatBot
 
-![Kết quả Chatbot](./back_ground_img/Screenshot 2025-07-26 212650.png)
+[![Kết quả Chatbot](./back_ground_img/Screenshot 2025-07-26 212650.png)](https://github.com/phancongtam190305/apec_chatbot/blob/main/back_ground_img/Screenshot%202025-07-26%20211508.png)
 
 ---
 
