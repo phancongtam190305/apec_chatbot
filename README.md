@@ -19,8 +19,8 @@
 - 🖼️ **Giao diện thân thiện**: Streamlit giúp tương tác trực quan, dễ sử dụng.
 
 ## 📁 Cấu trúc dự án
-
-apec\_chatbot/
+```
+apec_chatbot/
 ├── backend/
 │   ├── data/
 │   │   ├── crawled\_raw\_html/         # HTML thô đã crawl
@@ -33,6 +33,7 @@ apec\_chatbot/
 ├── app\_streamlit.py                 # Giao diện Streamlit
 ├── requirements.txt                 # Thư viện Python cần thiết
 └── README.md                        # File mô tả dự án
+```
 ## ⚙️ Cài đặt
 
 ### 1. Cài thư viện
